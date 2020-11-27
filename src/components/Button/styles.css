@@ -1,0 +1,16 @@
+.new-campaign-button {
+  background: #103363;
+  height: 45px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0 16px;
+  color: #FFF;
+  width: 170px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.new-campaign-button:hover {
+  background: #1a83ff;
+}

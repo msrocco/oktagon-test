@@ -1,0 +1,31 @@
+.modalContent {
+  display: flex;
+  height: 100%;
+}
+
+.leftSideModal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.leftSideModal p {
+  font-size: 16px;
+}
+
+.rightSideModal {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.rightSideModal img {
+  object-fit: fill;
+  width: 280px;
+  height: 160px;
+
+  border-radius: 10px;
+}

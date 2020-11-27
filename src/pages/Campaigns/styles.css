@@ -1,0 +1,53 @@
+.main {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.title-container {
+  width: 300px;
+}
+
+.title-container .title {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.input-container input {
+  width: 500px;
+  margin-right: 30px;
+  height: 40px;
+  border: 1px solid #103363;
+  border-radius: 5px;
+  padding-left: 4px;
+}
+
+.input-container input:focus {
+  border-color: #1a83ff;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+}
+
+.nav-tabs .nav-link{
+  border: none
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: 1px #000 solid;
+}
+
+.ant-pagination .ant-table-pagination .ant-table-pagination-right {
+  display: none;
+}
